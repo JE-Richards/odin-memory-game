@@ -5,11 +5,13 @@ export default function Header(props) {
 
   return (
     <header className="header">
-      <div className="info">
-        <h1 className="info__title">{title}</h1>
-        <p className="info__rules">{rules}</p>
+      <div className="header--container">
+        <div className="info">
+          <h1 className="info__title">{title}</h1>
+          <div className="info__rules">{rules}</div>
+        </div>
+        {scoreboard}
       </div>
-      {scoreboard}
     </header>
   );
 }

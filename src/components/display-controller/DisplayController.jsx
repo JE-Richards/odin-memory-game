@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import './styles/DisplayController.css';
 
 export default function DisplayController(props) {
   const { cards, moveTrigger } = props;

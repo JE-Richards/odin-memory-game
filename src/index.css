@@ -5,10 +5,35 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--background-col-dark);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --background-col-dark: rgb(36, 36, 36);
+  --background-col-darker: rgb(24, 24, 24);
+  --card-background-col: rgb(66, 66, 66);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.6;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+ul {
+  list-style-position: inside;
 }

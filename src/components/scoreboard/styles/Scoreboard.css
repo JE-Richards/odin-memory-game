@@ -1,0 +1,17 @@
+.scoreboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5em;
+}
+
+.score__container {
+  display: flex;
+  gap: 1em;
+  align-items: center;
+}
+
+.scoreboard__title,
+.scoreboard__score {
+  font-size: 30px;
+}
